@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/rt_incomplete_2.dir/lodepng.cpp.o CMakeFiles/rt_incomplete_2.dir/main.cpp.o CMakeFiles/rt_incomplete_2.dir/Sphere.cpp.o  -o rt_incomplete_2 
