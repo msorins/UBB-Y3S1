@@ -31,8 +31,7 @@ namespace rt {
             float ar, float ag, float ab,
             float dr, float dg, float db,
             float sr, float sg, float sb,
-            int sh)
-            : Geometry(Material(ar, ag, ab, dr, dg, db, sr, sg, sb, sh)) {
+            int sh) : Geometry(Material(ar, ag, ab, dr, dg, db, sr, sg, sb, sh)) {
             _center = Vector(x, y, z);
             _radius = radius;
         }

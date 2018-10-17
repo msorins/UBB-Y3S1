@@ -1,6 +1,7 @@
 #include <cmath>
 #include <iostream>
 #include <string>
+#include <math.h>
 
 #include "Vector.hpp"
 #include "Line.hpp"
@@ -12,9 +13,13 @@
 #include "Material.hpp"
 
 #include "Scene.hpp"
+#include "Light.hpp"
 
 using namespace std;
 using namespace rt;
+
+
+
 
 float imageToViewPlane(int n, int imgSize, float viewPlaneSize) {
     float u = (float)n*viewPlaneSize / (float)imgSize;
@@ -42,7 +47,7 @@ const Intersection findFirstIntersection(const Line& ray,
 }
 
 int main() {
-    Vector viewPoint(0, 0, 0);
+    Vector const viewPoint(0, 0, 0);
     Vector viewDirection(0, 0, 1);
     Vector viewUp(0, -1, 0);
 
@@ -82,8 +87,30 @@ int main() {
 	       Intersection i = findFirstIntersection(ray, frontPlaneDist, backPlaneDist);
 
 	       // If intersection is valid, render the color
+	       Color cl;
 	        if( i.valid() ) {
-	            image.setPixel(x, y, i.geometry()->color());
+	            Color cl = i.geometry()->material().ambient();
+	            for(auto light: lights) {
+	                cl *= light->ambient();
+	            }
+
+	            for(auto light: lights) {
+                    Vector N = i.geometry()->normal( i.vec() ); N.normalize(); N *= -1; // Normal to the surface at the intersection point
+                    Vector T = Vector( i.vec() - light->position() ); T.normalize(); // Vector from the intersection point to the light
+
+                    Vector E = Vector(i.vec() - viewPoint); E.normalize(); // Vector from the intersection point to the camera (0, 0, 0)
+                    Vector R  = N*(N*T)*2 - T; R.normalize();   // Reflection vector
+
+                    if(N * T > 0) {
+                        cl += i.geometry()->material().diffuse() * light->diffuse() * ( N * T );
+                    }
+
+                    if(E * R > 0) {
+                        cl += i.geometry()->material().specular() * light->specular() * pow(E*R, i.geometry()->material().shininess() );
+                    }
+	            }
+
+	            image.setPixel(x, y, cl);
 	        } else {
                 image.setPixel(x, y, Color(0, 0, 0));
 	        }

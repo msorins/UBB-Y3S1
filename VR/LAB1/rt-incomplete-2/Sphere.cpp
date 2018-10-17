@@ -3,8 +3,8 @@
 using namespace rt;
 using namespace std;
 Intersection Sphere::getIntersection(const Line& line, float minDist, float maxDist) {
-    Vector v1 = line.dx();
-    Vector v2 = line.vec(maxDist);
+    Vector v1 = line.x0();
+    Vector v2 = line.dx();
     Vector v3 = this->_center;
     float r = this->_radius;
 
@@ -30,37 +30,16 @@ Intersection Sphere::getIntersection(const Line& line, float minDist, float maxD
         return in;
     } else if(delta == 0) {
         int x0 = -b / (2 * a);
-        Vector pc = Vector(v1.x() + x0 * (v2.x() - v1.x()),
-                          v1.y() + x0 * (v2.y() - v1.y()),
-                          v1.z() + x0 * (v2.z() - v1.z())
-                         );
-
-        return Intersection(true, this, new Line(v1, pc, false), pc.length() );
+        return Intersection(true, this, &line, x0 );
 
     } else {
         float x0 = ( - b + sqrt(delta)) / ( 2 * a ) ;
         float x1 = ( - b - sqrt(delta)) / ( 2 * a ) ;
 
-
-        Vector pcA = Vector(v1.x() + x0 * (v2.x() - v1.x()),
-                           v1.y()  + x0 * (v2.y() - v1.y()),
-                           v1.z()  + x0 * (v2.z() - v1.z())
-        );
-
-        Vector pcB = Vector(v1.x() + x1 * (v2.x() - v1.x()),
-                            v1.y() + x1 * (v2.y() - v1.y()),
-                            v1.z() + x1 * (v2.z() - v1.z())
-        );
-
-        Line *lineA = new Line(v1, pcA, false);
-        Line *lineB = new Line(v1, pcB, false);
-        float dstA = sqrt(pcA.x() * pcA.x() + pcA.y() * pcA.y());
-        float dstB = sqrt(pcB.x() * pcB.x() + pcB.y() * pcB.y());
-
-        if(dstA < dstB) {
-            return Intersection(true, this, lineA, dstA );
+        if(x0 < x1) {
+            return Intersection(true, this, &line, x0 );
         } else {
-            return Intersection(true, this, lineB, dstB );
+            return Intersection(true, this, &line, x1 );
         }
     }
 }

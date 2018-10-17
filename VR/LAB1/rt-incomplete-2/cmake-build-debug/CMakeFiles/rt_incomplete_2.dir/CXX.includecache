@@ -105,6 +105,8 @@ iostream
 -
 string
 -
+math.h
+-
 Vector.hpp
 /Users/so/Desktop/Y3S1/VR/LAB1/rt-incomplete-2/Vector.hpp
 Line.hpp
@@ -123,4 +125,6 @@ Material.hpp
 /Users/so/Desktop/Y3S1/VR/LAB1/rt-incomplete-2/Material.hpp
 Scene.hpp
 /Users/so/Desktop/Y3S1/VR/LAB1/rt-incomplete-2/Scene.hpp
+Light.hpp
+/Users/so/Desktop/Y3S1/VR/LAB1/rt-incomplete-2/Light.hpp
 

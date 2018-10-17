@@ -11,7 +11,26 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="126736e7-cbca-48a4-a447-42953ca58dec" name="Default Changelist" comment="" />
+    <list default="true" id="126736e7-cbca-48a4-a447-42953ca58dec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../LAB2/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LAB2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2Multiplication/.idea/Lab2Multiplication.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2Multiplication/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2Multiplication/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2Multiplication/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2Multiplication/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2Multiplication/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/Scene.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/Scene.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/Sphere.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/Sphere.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/Sphere.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/Sphere.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/cmake-build-debug/CMakeFiles/rt_incomplete_2.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/cmake-build-debug/CMakeFiles/rt_incomplete_2.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/cmake-build-debug/CMakeFiles/rt_incomplete_2.dir/Sphere.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/cmake-build-debug/CMakeFiles/rt_incomplete_2.dir/Sphere.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/cmake-build-debug/CMakeFiles/rt_incomplete_2.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/cmake-build-debug/CMakeFiles/rt_incomplete_2.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/cmake-build-debug/rt_incomplete_2" beforeDir="false" afterPath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/cmake-build-debug/rt_incomplete_2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/cmake-build-debug/scene.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/cmake-build-debug/scene.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/main.cpp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,13 +43,14 @@
     <session id="1487001389">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -69,8 +89,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="79" column="23" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="54" />
+            <state relative-caret-position="378">
+              <caret line="78" column="25" lean-forward="true" selection-start-line="78" selection-start-column="25" selection-end-line="78" selection-end-column="25" />
               <folding>
                 <element signature="e#90#109#0" expanded="true" />
                 <marker date="1539193400328" expanded="true" signature="2711:3359" ph="..." />
@@ -107,6 +127,9 @@
       <replace>this-&gt;</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -124,6 +147,7 @@
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -182,17 +206,18 @@
       <workItem from="1539150903500" duration="1932000" />
       <workItem from="1539187461833" duration="1272000" />
       <workItem from="1539193307396" duration="101000" />
+      <workItem from="1539701045353" duration="10000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9817000" />
+    <option name="totallyTimeSpent" value="9827000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22161172" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22405373" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -277,8 +302,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="79" column="23" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="54" />
+        <state relative-caret-position="378">
+          <caret line="78" column="25" lean-forward="true" selection-start-line="78" selection-start-column="25" selection-end-line="78" selection-end-column="25" />
           <folding>
             <element signature="e#90#109#0" expanded="true" />
             <marker date="1539193400328" expanded="true" signature="2711:3359" ph="..." />
