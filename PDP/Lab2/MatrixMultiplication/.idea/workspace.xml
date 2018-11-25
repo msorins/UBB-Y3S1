@@ -12,23 +12,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d2796b5-318b-460c-bd07-d563894c1bf4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Lab2Multiplication.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LAB1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/Scene.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/Scene.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/Sphere.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/Sphere.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/Sphere.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/Sphere.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/cmake-build-debug/CMakeFiles/rt_incomplete_2.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/cmake-build-debug/CMakeFiles/rt_incomplete_2.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/cmake-build-debug/CMakeFiles/rt_incomplete_2.dir/Sphere.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/cmake-build-debug/CMakeFiles/rt_incomplete_2.dir/Sphere.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/cmake-build-debug/CMakeFiles/rt_incomplete_2.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/cmake-build-debug/CMakeFiles/rt_incomplete_2.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/cmake-build-debug/rt_incomplete_2" beforeDir="false" afterPath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/cmake-build-debug/rt_incomplete_2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/cmake-build-debug/scene.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/cmake-build-debug/scene.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../FLCD/Lab1/example.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FLCD/Lab1/example.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../FLCD/Lab1/lang.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FLCD/Lab1/lang.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../FLCD/Lab2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FLCD/Lab2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../FLCD/Lab2/lang1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FLCD/Lab2/lang1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../FLCD/Lab2/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FLCD/Lab2/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../FLCD/Lab2/src/github.com/emirpasic/gods" beforeDir="false" afterPath="$PROJECT_DIR$/../../../FLCD/Lab2/src/github.com/emirpasic/gods" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LAB1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../LAB1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatrixAddition/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MatrixAddition/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatrixAddition/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MatrixAddition/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatrixAddition/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../MatrixAddition/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatrixAddition/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../MatrixAddition/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatrixAddition/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../MatrixAddition/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatrixAddition/cmake-build-debug/CMakeFiles/LAB2.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatrixAddition/cmake-build-debug/CMakeFiles/LAB2.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../MatrixAddition/cmake-build-debug/CMakeFiles/LAB2.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatrixAddition/cmake-build-debug/CMakeFiles/LAB2.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../MatrixAddition/cmake-build-debug/CMakeFiles/LAB2.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatrixAddition/cmake-build-debug/CMakeFiles/LAB2.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatrixAddition/cmake-build-debug/CMakeFiles/LAB2.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../MatrixAddition/cmake-build-debug/CMakeFiles/LAB2.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatrixAddition/cmake-build-debug/CMakeFiles/LAB2.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatrixAddition/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../MatrixAddition/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatrixAddition/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../MatrixAddition/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatrixAddition/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../MatrixAddition/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatrixAddition/cmake-build-debug/LAB2.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../MatrixAddition/cmake-build-debug/LAB2.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatrixAddition/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../MatrixAddition/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatrixAddition/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../MatrixAddition/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2Multiplication.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2Multiplication.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2Multiplication.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2Multiplication.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2Multiplication.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2Multiplication.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2Multiplication.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2Multiplication.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Lab2Multiplication.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Lab2Multiplication.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Lab2Multiplication.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,9 +83,18 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1695942005">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor" />
@@ -70,11 +103,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="133">
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -82,7 +112,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -98,9 +128,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1680" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -114,6 +143,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -156,25 +186,20 @@
       <option name="presentableId" value="Default" />
       <updated>1539697264725</updated>
       <workItem from="1539697266537" duration="3429000" />
+      <workItem from="1540215457627" duration="183000" />
+      <workItem from="1540404715691" duration="199000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3429000" />
+    <option name="totallyTimeSpent" value="3811000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1680" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21778488" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22283272" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" weight="0.32871288" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="CMake" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.319802" />
@@ -182,10 +207,16 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32871288" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CMake" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,11 +260,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="133">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="21" />
         </state>
       </provider>
     </entry>

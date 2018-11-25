@@ -1,0 +1,31 @@
+For the symbols table I am using an AVL tree, in order to be self balanced.
+
+Due to the fact that all my instructions are the form <instr>...</instr> I have an extra stack
+to check the pairing of the instructions to be correct.
+
+Regexes:
+
+Identifier:
+^[[:alpha:]]+$
+-> one or more letters
+-> must match the whole line
+Boolean:
+^(true)|(false)$
+-> true or false
+-> must match the whole line
+
+Int:
+(^-?[1-9][[:digit:]]*$)|(^0$)
+-> Either 0, or a +-number
+
+Char:
+^'[[:alnum:]]'$
+-> alphanumeric number
+-> must match the whole line
+
+String:
+^"([[:alnum:]])*"$
+-> same as above but can contain 0 or more chars
+
+Constant:
+Either boolean, int, char or string

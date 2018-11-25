@@ -1,27 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e12f961d-78c4-483c-b4cd-7bf253bfd284" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lang1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lang2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BST/Node.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BST/Tree.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PIF/pif.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PIF/pifStruct.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ST/st.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/github.com/emirpasic/gods/trees/avltree/avltree.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/emirpasic/gods/trees/avltree/avltree.go" afterDir="false" />
+    <list default="true" id="81fb4e7d-db98-46d6-a473-1e5c5a23c928" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/finiteAutomata.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grammar.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Convertor/Convertor.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FiniteAutomata/FiniteAutomata.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Grammar/Grammar.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Menu/Menu.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PDP/LAB3/1.ThreadPoolInC++/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PDP/LAB3/1.ThreadPoolInC++/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PDP/LAB3/2.AsyncAndFutureInC++/.idea/2.AsyncAndFutureInC++.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PDP/LAB3/2.AsyncAndFutureInC++/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PDP/LAB3/2.AsyncAndFutureInC++/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PDP/LAB3/2.AsyncAndFutureInC++/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PDP/LAB3/2.AsyncAndFutureInC++/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PDP/LAB3/2.AsyncAndFutureInC++/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PDP/LAB3/3.ThreadPoolInJava/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PDP/LAB3/3.ThreadPoolInJava/src/com/company/Problem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PDP/LAB3/4.TasksAndFuturesInJava/src/com/company/Problem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PDP/LAB4/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PDP/LAB4/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/example.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1/example.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/lang.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1/lang.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lang2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/darwin_amd64/github.com/emirpasic/gods/trees/avltree.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BST/Node.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BST/Tree.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PIF/pif.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PIF/pifStruct.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ST/st.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/emirpasic/gods" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/gorilla/mux/mux_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/gorilla/mux/mux_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/gorilla/mux/regexp.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/gorilla/mux/regexp.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../PDP/LAB1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/LAB1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/CMakeFiles/LAB2.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/CMakeFiles/LAB2.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/CMakeFiles/LAB2.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/CMakeFiles/LAB2.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/CMakeFiles/LAB2.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/CMakeFiles/LAB2.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/CMakeFiles/LAB2.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/CMakeFiles/LAB2.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/CMakeFiles/LAB2.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/LAB2.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/LAB2.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeFiles/Lab2Multiplication.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeFiles/Lab2Multiplication.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeFiles/Lab2Multiplication.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeFiles/Lab2Multiplication.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeFiles/Lab2Multiplication.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeFiles/Lab2Multiplication.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeFiles/Lab2Multiplication.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeFiles/Lab2Multiplication.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeFiles/Lab2Multiplication.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/Lab2Multiplication.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/Lab2Multiplication.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PinguiniiGalactici-ProjColectiv" beforeDir="false" afterPath="$PROJECT_DIR$/../../PinguiniiGalactici-ProjColectiv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/Scene.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/Scene.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/Sphere.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/Sphere.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/Sphere.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/Sphere.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/cmake-build-debug/CMakeFiles/rt_incomplete_2.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/cmake-build-debug/CMakeFiles/rt_incomplete_2.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/cmake-build-debug/CMakeFiles/rt_incomplete_2.dir/Sphere.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/cmake-build-debug/CMakeFiles/rt_incomplete_2.dir/Sphere.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/cmake-build-debug/CMakeFiles/rt_incomplete_2.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/cmake-build-debug/CMakeFiles/rt_incomplete_2.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/cmake-build-debug/rt_incomplete_2" beforeDir="false" afterPath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/cmake-build-debug/rt_incomplete_2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/cmake-build-debug/scene.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/cmake-build-debug/scene.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/main.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,110 +86,150 @@
     <session id="-1433699604">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="README" value="2" />
           <entry key="go" value="8" />
-          <entry key="txt" value="2" />
+          <entry key="in" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Go" value="8" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="go" value="4443" />
-          <entry key="txt" value="7" />
+          <entry key="README" value="646" />
+          <entry key="go" value="8979" />
+          <entry key="in" value="167" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="4443" />
-          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="Go" value="8979" />
+          <entry key="PLAIN_TEXT" value="813" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.go.postfix.template.usages.trigger">
         <counts>
-          <entry key=".append" value="1" />
+          <entry key=".len" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1725">
-              <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
+            <state relative-caret-position="165">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FiniteAutomata/FiniteAutomata.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="18" />
               <folding>
-                <element signature="e#14#59#0" expanded="true" />
+                <element signature="n#!!block;n#FiniteAutomataFileBuilder#0" />
+                <element signature="n#!!block;n#FiniteAutomataInputBuilder#0" />
+                <element signature="n#!!block;n#readFa#0" />
+                <element signature="n#!!block;n#parseWords#0" />
+                <element signature="n#!!block;n#parseTransitions#0" />
+                <element signature="n#!!block;n#parseStarting#0" />
+                <element signature="n#!!block;n#isTerminalOrNonTerminal#0" />
+                <element signature="n#!!block;n#isTerminal#0" />
+                <element signature="n#!!block;n#isNonTerminal#0" />
+                <element signature="n#!!block;n#PrintSymbols#0" />
+                <element signature="n#!!block;n#PrintTransitions#0" />
+                <element signature="n#!!block;n#PrintStartingSymbol#0" />
+                <element signature="n#!!block;n#filterEmptyStrings#0" />
+                <element signature="n#!!block;n#isString#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PIF/pif.go">
+        <entry file="file://$PROJECT_DIR$/grammar.in">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="98" selection-start-line="7" selection-start-column="98" selection-end-line="7" selection-end-column="98" />
+            <state relative-caret-position="30">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PIF/pifStruct.go">
+        <entry file="file://$PROJECT_DIR$/doc.README">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Grammar/Grammar.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="645">
+              <caret line="143" column="34" lean-forward="true" selection-start-line="143" selection-start-column="34" selection-end-line="143" selection-end-column="34" />
+              <folding>
+                <element signature="n#!!block;n#GrammarFileBuilder#0" />
+                <element signature="n#!!block;n#GrammarInputBuilder#0" />
+                <element signature="n#!!block;n#readGrammar#0" />
+                <element signature="n#!!block;n#parseWords#0" />
+                <element signature="n#!!block;n#parseProductions#0" />
+                <element signature="n#!!block;n#parseStarting#0" />
+                <element signature="n#!!block;n#isTerminalOrNonTerminal#0" />
+                <element signature="n#!!block;n#isTerminal#0" />
+                <element signature="n#!!block;n#isNonTerminal#0" />
+                <element signature="n#!!block;n#PrintNonTerminals#0" />
+                <element signature="n#!!block;n#PrintTerminals#0" />
+                <element signature="n#!!block;n#PrintStart#0" />
+                <element signature="n#!!block;n#filterEmptyStrings#0" />
+                <element signature="n#!!block;n#isString#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Convertor/Convertor.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1200">
+              <caret line="81" column="75" lean-forward="true" selection-start-line="81" selection-start-column="75" selection-end-line="81" selection-end-column="101" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Menu/Menu.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/finiteAutomata.in">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BST/Node.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ST/st.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-              <folding>
-                <element signature="e#12#76#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lang1.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lang2.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -152,8 +245,11 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&quot;</find>
-      <find>true</find>
+      <find>fmt.println</find>
+      <find>fmt.prin</find>
+      <find>MenuBu</find>
+      <find>ReadFa</find>
+      <find>isRe</find>
     </findStrings>
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.11/libexec" />
@@ -166,23 +262,19 @@
         <option value="file://$PROJECT_DIR$" />
       </list>
     </option>
+    <option name="useGoPathFromSystemEnvironment" value="false" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lang2.txt" />
-        <option value="$PROJECT_DIR$/lang1.txt" />
-        <option value="$PROJECT_DIR$/BST/bst.go" />
-        <option value="$PROJECT_DIR$/BST/Node.go" />
-        <option value="$PROJECT_DIR$/BST/Tree.go" />
-        <option value="$PROJECT_DIR$/AVL/avl.go" />
-        <option value="$PROJECT_DIR$/pif.go" />
-        <option value="$PROJECT_DIR$/src/PIF/pifStruct.go" />
-        <option value="$PROJECT_DIR$/src/PIF/pif.go" />
-        <option value="$PROJECT_DIR$/src/AVL/avl.go" />
-        <option value="$PROJECT_DIR$/src/ST/avl.go" />
-        <option value="$PROJECT_DIR$/src/ST/st.go" />
+        <option value="$PROJECT_DIR$/finiteAutomata.in" />
+        <option value="$PROJECT_DIR$/src/Grammar/Grammar.go" />
+        <option value="$PROJECT_DIR$/src/Menu/Menu.go" />
+        <option value="$PROJECT_DIR$/src/FiniteAutomata/FiniteAutomata.go" />
+        <option value="$PROJECT_DIR$/doc.README" />
+        <option value="$PROJECT_DIR$/src/Convertor/Convertor.go" />
         <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/grammar.in" />
       </list>
     </option>
   </component>
@@ -218,7 +310,25 @@
               <item name="Lab2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Lab2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ST" type="462c0819:PsiDirectoryNode" />
+              <item name="Convertor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="FiniteAutomata" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="github.com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Grammar" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -230,7 +340,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
-    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
@@ -239,8 +349,8 @@
     <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -274,13 +384,13 @@
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2728938" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32959184" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.30510205" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26020408" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.25408164" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -291,8 +401,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" x="0" y="0" width="370" height="850" id="Documentation" order="3" side_tool="true" visible="true" weight="0.32967034" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,85 +413,111 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>fmt.Sprintln(val)</expression-string>
+        <expression-string>isString(word)</expression-string>
         <language-id>go</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lang1.txt">
+    <entry file="file:///usr/local/Cellar/go/1.11/libexec/src/runtime/panic.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        <state relative-caret-position="203">
+          <caret line="680" selection-start-line="680" selection-end-line="680" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lang2.txt">
+    <entry file="file:///usr/local/Cellar/go/1.11/libexec/src/runtime/proc.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BST/bst.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pif.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BST/Tree.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BST/Node.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PIF/pif.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="98" selection-start-line="7" selection-start-column="98" selection-end-line="7" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PIF/pifStruct.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ST/st.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-          <folding>
-            <element signature="e#12#76#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="203">
+          <caret line="153" selection-start-line="153" selection-end-line="153" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1725">
-          <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
+        <state relative-caret-position="165">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grammar.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc.README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Menu/Menu.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/finiteAutomata.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Convertor/Convertor.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="81" column="75" lean-forward="true" selection-start-line="81" selection-start-column="75" selection-end-line="81" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FiniteAutomata/FiniteAutomata.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="18" />
           <folding>
-            <element signature="e#14#59#0" expanded="true" />
+            <element signature="n#!!block;n#FiniteAutomataFileBuilder#0" />
+            <element signature="n#!!block;n#FiniteAutomataInputBuilder#0" />
+            <element signature="n#!!block;n#readFa#0" />
+            <element signature="n#!!block;n#parseWords#0" />
+            <element signature="n#!!block;n#parseTransitions#0" />
+            <element signature="n#!!block;n#parseStarting#0" />
+            <element signature="n#!!block;n#isTerminalOrNonTerminal#0" />
+            <element signature="n#!!block;n#isTerminal#0" />
+            <element signature="n#!!block;n#isNonTerminal#0" />
+            <element signature="n#!!block;n#PrintSymbols#0" />
+            <element signature="n#!!block;n#PrintTransitions#0" />
+            <element signature="n#!!block;n#PrintStartingSymbol#0" />
+            <element signature="n#!!block;n#filterEmptyStrings#0" />
+            <element signature="n#!!block;n#isString#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Grammar/Grammar.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="143" column="34" lean-forward="true" selection-start-line="143" selection-start-column="34" selection-end-line="143" selection-end-column="34" />
+          <folding>
+            <element signature="n#!!block;n#GrammarFileBuilder#0" />
+            <element signature="n#!!block;n#GrammarInputBuilder#0" />
+            <element signature="n#!!block;n#readGrammar#0" />
+            <element signature="n#!!block;n#parseWords#0" />
+            <element signature="n#!!block;n#parseProductions#0" />
+            <element signature="n#!!block;n#parseStarting#0" />
+            <element signature="n#!!block;n#isTerminalOrNonTerminal#0" />
+            <element signature="n#!!block;n#isTerminal#0" />
+            <element signature="n#!!block;n#isNonTerminal#0" />
+            <element signature="n#!!block;n#PrintNonTerminals#0" />
+            <element signature="n#!!block;n#PrintTerminals#0" />
+            <element signature="n#!!block;n#PrintStart#0" />
+            <element signature="n#!!block;n#filterEmptyStrings#0" />
+            <element signature="n#!!block;n#isString#0" />
           </folding>
         </state>
       </provider>

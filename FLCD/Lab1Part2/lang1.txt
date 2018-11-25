@@ -1,0 +1,13 @@
+<main>
+    <string>
+            <sa>"AnaAreMere"</sa>
+    </string>
+
+    <int>
+        <a>1</a>
+        <b>2</b>
+        <c>3</c>
+    </int>
+</main>
+
+

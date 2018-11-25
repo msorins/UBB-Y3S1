@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.ParserOnCallback", "1.ParserOnCallback\1.ParserOnCallback.csproj", "{70BB0CFC-D598-4493-B464-5A321BEE2BFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70BB0CFC-D598-4493-B464-5A321BEE2BFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70BB0CFC-D598-4493-B464-5A321BEE2BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70BB0CFC-D598-4493-B464-5A321BEE2BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70BB0CFC-D598-4493-B464-5A321BEE2BFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D8BF2D1-8D1E-44C0-89D3-58F15E85BDB3}
+	EndGlobalSection
+EndGlobal

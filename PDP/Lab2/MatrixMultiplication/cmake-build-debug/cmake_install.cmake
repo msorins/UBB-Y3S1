@@ -1,4 +1,4 @@
-# Install script for directory: /Users/so/Desktop/Y3S1/PDP/Lab2Multiplication
+# Install script for directory: /Users/so/Desktop/Y3S1/PDP/Lab2/MatrixMultiplication
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/so/Desktop/Y3S1/PDP/Lab2Multiplication/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/so/Desktop/Y3S1/PDP/Lab2/MatrixMultiplication/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,0 +1,72 @@
+<main>
+    <int>
+        <a>1</a>
+        <b>2</b>
+        <c>3</c>
+    </int>
+
+    <string>
+        <sa>"Ana are mere"</sa>
+    </string>
+
+    <read>
+        <a>
+        <b>
+    </read>
+
+    <if expr="a == 2" >
+        <then>
+            <print>
+            "Da e mai mare decat 2"
+            </print>
+        </then>
+        <else>
+            <print>
+                "Nu este mai mic decat 2"
+            </print>
+        </else>
+    </if>
+
+
+    <while expr="b > 3" >
+            <print>
+                <b>
+            </print>
+            <assign>
+               <b>
+                   <b> - 1
+               </b>
+            <assign>
+    </while>
+
+    <struct>
+        <myStruct>
+            <int>
+                <nrX></nrX>
+                <nrY></nrY>
+            </int>
+            <string>
+                <name></name>
+            </string>
+        </myStruct>
+    </struct>
+
+    <print>
+        <myStruct>
+    </print>
+
+    <int>
+        <a>
+            <ul>
+                <li>
+                    1
+                </li>
+                <li>
+                    2
+                </li>
+            </ul>
+        </a>
+    </int>
+</main>
+
+

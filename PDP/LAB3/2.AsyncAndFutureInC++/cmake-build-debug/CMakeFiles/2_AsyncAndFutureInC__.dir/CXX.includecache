@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/so/Desktop/Y3S1/PDP/LAB3/2.AsyncAndFutureInC++/main.cpp
+iostream
+-
+boost/thread.hpp
+-
+boost/chrono.hpp
+-
+boost/asio/thread_pool.hpp
+-
+boost/asio/post.hpp
+-
+iostream
+-
+iostream
+-
+vector
+-
+thread
+-
+mutex
+-
+random
+-
+chrono
+-
+

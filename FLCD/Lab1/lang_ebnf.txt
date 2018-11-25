@@ -1,0 +1,134 @@
+
+1 .Language Definition:
+  1.1 Alphabet:
+  1.1.a. Upper && Lower case english characters (A-Za-z);
+      b. Underline character
+      c. Decimal digits (0-9);
+  Lexic:
+      a.Special symbols, representing:
+	 - operators + - * / gt ge lt le eq
+	 - separators < > space
+	 - reserved words:
+		main
+        if
+        while
+        read
+        print
+        then
+        else
+        struct
+        int
+        string
+        char
+        boolean
+        assign
+      b.identifiers
+	   -a sequence of letters followed by digits
+	     identifier = letter{letter}{digit}
+	     letter = "a" | "b" |...| "z" | "A" | "B" | ... | "Z" |
+	     digit = "0" | "1" |...| "9"
+      c.constants
+        1.int
+                nrconst = [-]no
+                no = nonzero{digit}
+                nonzero = "1" |...| "9"
+        2.char
+                character = "'"letter"'"|"'"digit"'"
+        3.string
+                constchar = "string"
+                string = character{string}
+                character = letter|digit
+        4.bool
+            boolean = "true" | "false"		
+
+
+2.2 Syntax:
+The words - predefined tokens are specified between " and ":	
+a) Sintactical rules:
+    program  = "<main>" { {declaration} {stmtlist} } "</main>"
+	
+
+ declaration = vardecl | arraydecl | structdecl
+	vardecl  = "<" type ">" "<" IDENTIFIER ">" nr "</" IDENTIFIER ">" "</" type ">"
+      type   = "bool" | "int" | "string" | "char"
+  arraydecl  = "<" type ">" "<" IDENTIFIER ">" "<ul>" {"<li>" nr "</li>"}  "</ul>"      "</" IDENTIFIER ">"  "</" type ">" 
+  structdecl = "<struct>" {declaration} "</struct>"  
+  
+   stmtlist  = stmt | stmt  stmtlist
+       stmt  = simplstmt | structstmt | iostmt
+  simplstmt  = assignstmt | iostmt
+ assignstmt  = "<assign>" "<"IDENTIFIER">"  expression   "</" IDENTIFIER ">"  "</asssign>"          
+ expression  = expression ("+" | "-") term | term
+       term  = term ("*" | "/") factor | factor
+     factor  = "(" expression ")" | "<" IDENTIFIER ">" | nr
+	 
+     iostmt  = writestmt | readstmt
+	readstmt = "<read>" {"<" IDENTIFIER ">"}  "</read>"
+   writestmt = "<print>" { ( "<" IDENTIFIER ">" | CONSTANT) } "</print>
+   
+ structstmt  = stmtlist | ifstmt | whilestmt
+     ifstmt  = "<if expr=" condition ">" "<then>" stmtlist "</then>"  "<else>" stmtlist "</else>" "</if>"     
+  whilestmt  = "<while expr=" condition ">" stmtlist  "</while>"     
+  condition  = expression RELATION expression
+  
+  
+b) lexical rules:
+ IDENTIFIER ::= letter | letter{letter}
+     letter ::= "A" | "B" | . ..| "Z"
+      digit ::= "0" | "1" |...| "9"
+	nr   = ("1" |...| "9"){digit}
+   RELATION ::= "gt" | "ge" | "eq" | "neq" | "ge" | "g"
+   
+   
+   
+Codification:
+-------------------------
+| Token type	|   code|
+-------------------------
+identifier 	 0
+constatnt 	 1
+
+main 	2
+char 	3
+const   4
+
+int 	5
+bool	6
+string 	7
+
+true	8
+false	9
+
+if   	10 
+then    11
+else    12	
+		
+while 	13
+
+read	14
+print	15
+
+<		16
+>		17
+
+ul		18
+li		19
+
+(		20
+)		21
+
++		22
+-		23
+*		24
+/		25
+
+lt		26
+le		27
+eq		28
+neq		29
+ge		30
+gt		31
+=   	32
+
+assign 33
+struct	34

@@ -1,0 +1,110 @@
+Parallel and distributed programming - Laboratory 5
+Simple parallel algorithms
+
+Programming language: C#
+Threading mechanism: Tasks and Async/Await
+
+Write a program that is capable of simultaneously downloading several files through HTTP. 
+Use directly the BeginConnect()/EndConnect(), BeginSend()/EndSend() and BeginReceive()/EndReceive() Socket functions, 
+and write a simple parser for the HTTP protocol (it should be able only to get the header lines and to understand the Content-lenght: header line).
+
+Implementations:
+	-	Directly implement the parser on the callbacks (event-driven);
+	-	Wrap the connect/send/receive operations in tasks, with the callback setting the result of the task;
+	-	Like the previous, but also use the async/await mechanism.
+
+Hardware:
+	- Processor: Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz 
+	- Installed RAM Memory: 16.0 GB 3000 MHz	
+	- System type: 64-bit Operating System, x64-based processor (Windows 10)
+
+Tests:
+
+"www.google.com", "www.youtube.com", "www.facebook.com", "www.linkedin.com",
+"www.google.com", "www.youtube.com", "www.facebook.com","www.linkedin.com"
+
+_______________ Event driven download _______________
+
+Host: www.google.com
+Content-Length: 1555
+
+Host: www.youtube.com
+Content-Length: 1555
+
+Host: www.facebook.com
+Content-Length: 2959
+
+Host: www.linkedin.com
+Content-Length: 5556
+
+Host: www.google.com
+Content-Length: 1555
+
+Host: www.youtube.com
+Content-Length: 1555
+
+Host: www.facebook.com
+Content-Length: 2959
+
+Host: www.linkedin.com
+Content-Length: 5556
+
+        Duration: 00:00:00.7155560
+
+_______________ Task download _______________
+
+Host: www.facebook.com
+Content-Length: 2959
+
+Host: www.google.com
+Content-Length: 1555
+
+Host: www.youtube.com
+Content-Length: 1555
+
+Host: www.google.com
+Content-Length: 1555
+
+Host: www.facebook.com
+Content-Length: 2959
+
+Host: www.linkedin.com
+Content-Length: 5556
+
+Host: www.linkedin.com
+Content-Length: 5556
+
+Host: www.youtube.com
+Content-Length: 1555
+
+        Duration: 00:00:06.6265384
+
+_______________ Async/Await download _______________
+
+Host: www.google.com
+Content-Length: 1555
+
+Host: www.youtube.com
+Content-Length: 1555
+
+Host: www.facebook.com
+Content-Length: 2959
+
+Host: www.linkedin.com
+Content-Length: 5556
+
+Host: www.google.com
+Content-Length: 1555
+
+Host: www.youtube.com
+Content-Length: 1555
+
+Host: www.facebook.com
+Content-Length: 2959
+
+Host: www.linkedin.com
+Content-Length: 5556
+
+        Duration: 00:00:01.0534190
+
+	

@@ -1,0 +1,39 @@
+This is the way in which I keep my Finite Automata:
+
+type FiniteAutomata struct {
+	Q  map[string] bool // set of states
+	E  map[string] bool // set of symbols
+	Ro []Transition     // transitions
+	Q0 string           // starting symbol
+	F  map[string] bool // finish symbols
+}
+
+
+This is the way in which I keep my Grammar:
+
+type Production struct {
+	LeftSide []string
+	RightSide []string
+}
+
+type Grammar struct {
+	N map[string] bool 		 // set of non terminals
+	E map[string] bool       // set of terminals
+	P []Production 		 	 // productions
+	S string 	  			 // starting symbol
+}
+
+Verification if a grammar is regular:
+    A grammar is not regular if:
+        - len(leftHandSide) != 1
+        - len(rightSide) != 2
+        - if is not a form terminal NonTerminal = terminal NonTerminal or NonTermina = terminal
+        - only starting symbol can enter in eps
+        - if starting symbol enters in eps, it cannot be in rhs
+
+
+
+Conversions:
+
+I have a Convertor class which deals with conversions in order not to make circular dependencies
+I iterate through the productions / transitions and convert them

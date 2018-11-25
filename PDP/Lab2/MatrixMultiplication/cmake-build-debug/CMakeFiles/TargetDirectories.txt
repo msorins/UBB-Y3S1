@@ -1,3 +1,3 @@
-/Users/so/Desktop/Y3S1/PDP/Lab2Multiplication/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/so/Desktop/Y3S1/PDP/Lab2Multiplication/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/so/Desktop/Y3S1/PDP/Lab2Multiplication/cmake-build-debug/CMakeFiles/Lab2Multiplication.dir
+/Users/so/Desktop/Y3S1/PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/so/Desktop/Y3S1/PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/so/Desktop/Y3S1/PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeFiles/Lab2Multiplication.dir

@@ -1,0 +1,4 @@
+S B C
+a b
+S -> a B ; S -> b B ; B -> a S ; B -> b C ; B -> b ; C -> b C ; C -> b
+S
