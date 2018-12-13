@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/so/Desktop/Y3S1/PDP/LAB9_Prob2/main.cpp
+iostream
+-
+fstream
+-
+vector
+-
+mpi.h
+-
+time.h
+-
+stdint.h
+-
+stdio.h
+-
+assert.h
+-
+

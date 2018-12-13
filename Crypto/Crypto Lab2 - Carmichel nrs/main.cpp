@@ -73,10 +73,12 @@ vector<long long> getCarmichael(long long bound) {
 }
 
 int main() {
-    auto res = getCarmichael(1000000);
+    auto res = getCarmichael(100000);
     for(auto nr: res) {
         cout << nr << " ";
     }
 
+    cout << "\n";
+    cout << res.size() << "\n";
     return 0;
 }
