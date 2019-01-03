@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/so/Desktop/Y3S1/PDP/ExamPreparations/Subject2-Exam2017/01Hamilton/main.cpp
+iostream
+-
+fstream
+-
+vector
+-
+thread
+-
+

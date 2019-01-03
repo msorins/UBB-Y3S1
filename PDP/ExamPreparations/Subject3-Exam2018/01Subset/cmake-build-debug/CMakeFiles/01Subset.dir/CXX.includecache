@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/so/Desktop/Y3S1/PDP/ExamPreparations/Subject3-Exam2018/01Subset/main.cpp
+iostream
+-
+vector
+-
+thread
+-
+mutex
+-
+atomic
+-
+

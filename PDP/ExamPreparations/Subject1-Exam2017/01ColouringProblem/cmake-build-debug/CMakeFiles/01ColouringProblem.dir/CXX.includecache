@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/so/Desktop/Y3S1/PDP/ExamPreparations/Subject1-Exam2017/01ColouringProblem/main.cpp
+iostream
+-
+vector
+-
+thread
+-
+future
+-
+cmath
+-
+mutex
+-
+algorithm
+-
+

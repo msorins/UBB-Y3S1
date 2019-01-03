@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/so/Desktop/Y3S1/PDP/ExamPreparations/Sample-Exam2018/01ParallelQuickSort/main.cpp
+iostream
+-
+vector
+-
+future
+-
+

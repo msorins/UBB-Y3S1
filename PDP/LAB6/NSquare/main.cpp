@@ -10,7 +10,7 @@
 using namespace std;
 
 #define  NRThreads 8
-#define  Size 30000
+#define  Size 3000
 
 vector<int> polinomA = {3, 0, 4, 0, 1};
 vector<int> polinomB = {3, 5, 0, 0, 0};
@@ -21,8 +21,8 @@ vector< atomic<int> > polinomC(Size * 2 + 5);
 // 4 threads: 6604ms
 // 8 threads: 4400ms
 
-void doMultiplication( vector<int> const &a, vector<int> const &b, vector<atomic<int>> const &c, int pozLeft) {
-    auto &C = const_cast<vector<atomic<int>> &>(c);
+void doMultiplication( vector<int> const &a, vector<int> const &b, vector<atomic<int>>  &C, int pozLeft) {
+//    auto &C = const_cast<vector<atomic<int>> &>(c);
 
     for(int pozRight = 0; pozRight < b.size(); pozRight++) {
         if(b[pozRight] != 0) {

@@ -1,9 +1,4 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/so/Desktop/Y3S1/PDP/LAB3/2.AsyncAndFutureInC++
--- Looking for pthread.h
--- Looking for pthread.h - found
--- Looking for pthread_create
--- Looking for pthread_create - found
--- Found Threads: TRUE  
 -- Boost version: 1.67.0
 -- Found the following Boost libraries:
 --   regex

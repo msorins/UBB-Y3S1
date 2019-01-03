@@ -85,7 +85,9 @@ int main() {
     // Start the threads
     vector<future<void>> futures;
     for(int i = 0; i < NRThreads; i++) {
-        futures.emplace_back(  std::async(doAddition, i) );
+        futures.emplace_back( std::async([i]() {
+            doAddition(i);
+        }));
     }
 
     // Wait for all threads to finish

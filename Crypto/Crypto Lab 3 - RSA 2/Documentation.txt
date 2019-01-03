@@ -1,0 +1,85 @@
+	
+
+
+RSA (Rivest–Shamir–Adleman) is one of the first public-key cryptosystems and is widely used for secure data transmission. 
+ In RSA, this asymmetry is based on the practical difficulty of the factorization of the product of two large prime numbers, the "factoring problem". 
+
+The acronym RSA is made of the initial letters of the surnames of Ron Rivest, Adi Shamir, and Leonard Adleman
+
+A user of RSA creates and then publishes a public key based on two large prime numbers, along with an auxiliary value. 
+The prime numbers must be kept secret. Anyone can use the public key to encrypt a message, but with currently published methods, and if the public key is large enough, only someone with knowledge of the prime numbers can decode the message feasibly.[2] Breaking RSA encryption is known as the RSA problem.
+
+RSA is a relatively slow algorithm, and because of this, it is less commonly used to directly encrypt user data. More often, RSA passes encrypted shared keys for symmetric key cryptography which in turn can perform bulk encryption-decryption operations at much higher speed.
+
+
+There are three files created to accomplish the requirement:
+		- main.cpp
+		- RSA.h
+		- RSAText.h
+		
+	The GUI is computed of:
+		- Input text - where the text that we want to encrypt/decrypt is inserted
+		- Encrypt button - encrypt the text from the input text
+		- Decrypt button - decrypt the text from the input text
+		- Text view - the encrypted/decrypted 
+		- Text viwe for: p, q, n, e, d
+	
+	In main.cpp file the GUI is created and shown after the program is started.
+	
+	In RSA.h file there are declared the following:
+		- PublicKey structure
+		- RSA class with its methods.
+	In the PublicKey there are:is rewrited the operator "<<" for cout so we can print PublicKey 
+elements (n & e)
+	In the RSA class there are the following methods declared:
+		- generatePrimes - generate prime numbers
+        - generatePandQ - generates P and Q
+        - generateNAndLengthEncryption - generates the lenght of the encrypted text
+        - generatePhiN - generates Phi number
+        - generatePublicKey - generates the public key
+        - generatePrivateKey - generates the private key
+		- getPublicKey - returns the PublicKey declared with n & e
+		- encrypt - gets a number parameter and encrypts it
+		- dencrypt - gets a number parameter and dencrypts it
+		- getters for P, Q, N, E, PhiN, D, the length of the decrypted text
+		- doEncrypt - encrypt a given number
+		- doDecrypt - decrypt a given number
+		- gcd - returns the gcd of a two numbers givne
+		- moduloPow - return the modulo power
+		- cmmdc - returns the cmmdc of a two given numbers
+		- getInverseMod - returns the invers of the modulo
+		- msgToLong - converts message to long
+		- nrToString - converts a number to string
+		
+	In the RSAText class there are the following methods:
+		- ecrypt - encrypt a given string as parameter
+		- decrypt - decrypt a given string as parameter
+		- lettersToNr - converts the letters to numbers
+		- nrToLetters - converts the numbers to letters
+		- padByEncryptionLength - adds how many spaces are needed to the 
+		- appendIfNeeded - adds at input a space if the input lenght it's odd
+	
+	Programs used:
+		- CLion - C++ IDE
+		- QT - designer
+		- GitHub - storing the program
+	
+	Hardware used:
+		- RAM:	16GB 1600MHz DDR3L (non-upgradeable)
+		- CPU:	2.5GHz Intel Core i7-4870HQ (Turbo up to 3.7GHz)
+		- GPU:	Intel Iris Pro 5200 (integrated), AMD Radeon R9 M370X with 2GB GDDR5
+
+
+For Values: ( p: 4637, q: 4603, n: 21344111, e: 14934619, d: 48990943 )
+Text: ab
+Encryption: <bqhoam>
+
+Text: ana are mere
+Decryption: < hrqhq kswyh alnydaarfjkahbscu ibbfg>
+
+
+Text: bbbaap
+Decryption: < jfysz e  jk o gsw> 
+
+
+

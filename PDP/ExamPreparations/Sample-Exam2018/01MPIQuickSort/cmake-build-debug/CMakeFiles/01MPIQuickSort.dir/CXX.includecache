@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/so/Desktop/Y3S1/PDP/ExamPreparations/Sample-Exam2018/01MPIQuickSort/main.cpp
+iostream
+-
+vector
+-
+future
+-
+mpi.h
+-
+
+/usr/local/include/mpi.h
+stddef.h
+-
+mpi_portable_platform.h
+/usr/local/include/mpi_portable_platform.h
+openmpi/ompi/mpi/cxx/mpicxx.h
+/usr/local/include/openmpi/ompi/mpi/cxx/mpicxx.h
+
+/usr/local/include/mpi_portable_platform.h
+omp.h
+/usr/local/include/omp.h
+omp.h
+/usr/local/include/omp.h
+

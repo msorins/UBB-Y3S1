@@ -2,79 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81fb4e7d-db98-46d6-a473-1e5c5a23c928" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/finiteAutomata.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/grammar.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Convertor/Convertor.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FiniteAutomata/FiniteAutomata.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Grammar/Grammar.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Menu/Menu.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../PDP/LAB3/1.ThreadPoolInC++/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../PDP/LAB3/1.ThreadPoolInC++/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../PDP/LAB3/2.AsyncAndFutureInC++/.idea/2.AsyncAndFutureInC++.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../PDP/LAB3/2.AsyncAndFutureInC++/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../PDP/LAB3/2.AsyncAndFutureInC++/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../PDP/LAB3/2.AsyncAndFutureInC++/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../PDP/LAB3/2.AsyncAndFutureInC++/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../PDP/LAB3/2.AsyncAndFutureInC++/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../PDP/LAB3/3.ThreadPoolInJava/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../PDP/LAB3/3.ThreadPoolInJava/src/com/company/Problem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../PDP/LAB3/4.TasksAndFuturesInJava/src/com/company/Problem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../PDP/LAB4/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../PDP/LAB4/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1/example.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1/example.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab1/lang.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1/lang.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LFTC-Lab4" beforeDir="false" afterPath="$PROJECT_DIR$/../LFTC-Lab4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1Part2/src/github.com/emirpasic/gods" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1Part2/src/github.com/emirpasic/gods" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lang1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lang2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/darwin_amd64/github.com/emirpasic/gods/trees/avltree.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BST/Node.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BST/Tree.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PIF/pif.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PIF/pifStruct.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ST/st.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/github.com/emirpasic/gods" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/gorilla/mux" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/gorilla/mux" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/github.com/gorilla/mux/mux_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/gorilla/mux/mux_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/github.com/gorilla/mux/regexp.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/gorilla/mux/regexp.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PDP/LAB1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/LAB1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/CMakeFiles/LAB2.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/CMakeFiles/LAB2.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/CMakeFiles/LAB2.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/CMakeFiles/LAB2.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/CMakeFiles/LAB2.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/CMakeFiles/LAB2.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/CMakeFiles/LAB2.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/CMakeFiles/LAB2.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/CMakeFiles/LAB2.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/LAB2.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/LAB2.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixAddition/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeFiles/Lab2Multiplication.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeFiles/Lab2Multiplication.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeFiles/Lab2Multiplication.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeFiles/Lab2Multiplication.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeFiles/Lab2Multiplication.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeFiles/Lab2Multiplication.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeFiles/Lab2Multiplication.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeFiles/Lab2Multiplication.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeFiles/Lab2Multiplication.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/Lab2Multiplication.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/Lab2Multiplication.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab2/MatrixMultiplication/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PinguiniiGalactici-ProjColectiv" beforeDir="false" afterPath="$PROJECT_DIR$/../../PinguiniiGalactici-ProjColectiv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/cmake-build-debug/scene.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../VR/LAB1/rt-incomplete-2/cmake-build-debug/scene.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MA/crud-project-msorins" beforeDir="false" afterPath="$PROJECT_DIR$/../../MA/crud-project-msorins" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PDP/GausianBlur" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/GausianBlur" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,13 +21,13 @@
     <session id="-1433699604">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.0" value="3" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -133,7 +68,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="240">
               <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
@@ -142,24 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FiniteAutomata/FiniteAutomata.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="345">
               <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="18" />
-              <folding>
-                <element signature="n#!!block;n#FiniteAutomataFileBuilder#0" />
-                <element signature="n#!!block;n#FiniteAutomataInputBuilder#0" />
-                <element signature="n#!!block;n#readFa#0" />
-                <element signature="n#!!block;n#parseWords#0" />
-                <element signature="n#!!block;n#parseTransitions#0" />
-                <element signature="n#!!block;n#parseStarting#0" />
-                <element signature="n#!!block;n#isTerminalOrNonTerminal#0" />
-                <element signature="n#!!block;n#isTerminal#0" />
-                <element signature="n#!!block;n#isNonTerminal#0" />
-                <element signature="n#!!block;n#PrintSymbols#0" />
-                <element signature="n#!!block;n#PrintTransitions#0" />
-                <element signature="n#!!block;n#PrintStartingSymbol#0" />
-                <element signature="n#!!block;n#filterEmptyStrings#0" />
-                <element signature="n#!!block;n#isString#0" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -185,24 +104,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Grammar/Grammar.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="143" column="34" lean-forward="true" selection-start-line="143" selection-start-column="34" selection-end-line="143" selection-end-column="34" />
-              <folding>
-                <element signature="n#!!block;n#GrammarFileBuilder#0" />
-                <element signature="n#!!block;n#GrammarInputBuilder#0" />
-                <element signature="n#!!block;n#readGrammar#0" />
-                <element signature="n#!!block;n#parseWords#0" />
-                <element signature="n#!!block;n#parseProductions#0" />
-                <element signature="n#!!block;n#parseStarting#0" />
-                <element signature="n#!!block;n#isTerminalOrNonTerminal#0" />
-                <element signature="n#!!block;n#isTerminal#0" />
-                <element signature="n#!!block;n#isNonTerminal#0" />
-                <element signature="n#!!block;n#PrintNonTerminals#0" />
-                <element signature="n#!!block;n#PrintTerminals#0" />
-                <element signature="n#!!block;n#PrintStart#0" />
-                <element signature="n#!!block;n#filterEmptyStrings#0" />
-                <element signature="n#!!block;n#isString#0" />
-              </folding>
+            <state relative-caret-position="315">
+              <caret line="121" column="5" lean-forward="true" selection-start-line="121" selection-start-column="5" selection-end-line="121" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -210,8 +113,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Convertor/Convertor.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1200">
-              <caret line="81" column="75" lean-forward="true" selection-start-line="81" selection-start-column="75" selection-end-line="81" selection-end-column="101" />
+            <state relative-caret-position="1215">
+              <caret line="81" column="75" selection-start-line="81" selection-start-column="75" selection-end-line="81" selection-end-column="101" />
             </state>
           </provider>
         </entry>
@@ -219,7 +122,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Menu/Menu.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="390">
               <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
@@ -285,8 +188,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="-1" />
+    <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="height" value="982" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -294,6 +199,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -334,7 +240,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -343,7 +248,7 @@
     <property name="configurable.Module.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
@@ -374,17 +279,25 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Go Build.go build main.go" />
-      </list>
-    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="81fb4e7d-db98-46d6-a473-1e5c5a23c928" name="Default Changelist" comment="" />
+      <created>1544884805767</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544884805767</updated>
+    </task>
+    <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2728938" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27245328" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -398,6 +311,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -436,8 +350,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="240">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FiniteAutomata/FiniteAutomata.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -455,9 +376,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Convertor/Convertor.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="81" column="75" selection-start-line="81" selection-start-column="75" selection-end-line="81" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Menu/Menu.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="390">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
@@ -469,56 +397,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Convertor/Convertor.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="81" column="75" lean-forward="true" selection-start-line="81" selection-start-column="75" selection-end-line="81" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FiniteAutomata/FiniteAutomata.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="18" />
-          <folding>
-            <element signature="n#!!block;n#FiniteAutomataFileBuilder#0" />
-            <element signature="n#!!block;n#FiniteAutomataInputBuilder#0" />
-            <element signature="n#!!block;n#readFa#0" />
-            <element signature="n#!!block;n#parseWords#0" />
-            <element signature="n#!!block;n#parseTransitions#0" />
-            <element signature="n#!!block;n#parseStarting#0" />
-            <element signature="n#!!block;n#isTerminalOrNonTerminal#0" />
-            <element signature="n#!!block;n#isTerminal#0" />
-            <element signature="n#!!block;n#isNonTerminal#0" />
-            <element signature="n#!!block;n#PrintSymbols#0" />
-            <element signature="n#!!block;n#PrintTransitions#0" />
-            <element signature="n#!!block;n#PrintStartingSymbol#0" />
-            <element signature="n#!!block;n#filterEmptyStrings#0" />
-            <element signature="n#!!block;n#isString#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Grammar/Grammar.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="143" column="34" lean-forward="true" selection-start-line="143" selection-start-column="34" selection-end-line="143" selection-end-column="34" />
-          <folding>
-            <element signature="n#!!block;n#GrammarFileBuilder#0" />
-            <element signature="n#!!block;n#GrammarInputBuilder#0" />
-            <element signature="n#!!block;n#readGrammar#0" />
-            <element signature="n#!!block;n#parseWords#0" />
-            <element signature="n#!!block;n#parseProductions#0" />
-            <element signature="n#!!block;n#parseStarting#0" />
-            <element signature="n#!!block;n#isTerminalOrNonTerminal#0" />
-            <element signature="n#!!block;n#isTerminal#0" />
-            <element signature="n#!!block;n#isNonTerminal#0" />
-            <element signature="n#!!block;n#PrintNonTerminals#0" />
-            <element signature="n#!!block;n#PrintTerminals#0" />
-            <element signature="n#!!block;n#PrintStart#0" />
-            <element signature="n#!!block;n#filterEmptyStrings#0" />
-            <element signature="n#!!block;n#isString#0" />
-          </folding>
+        <state relative-caret-position="315">
+          <caret line="121" column="5" lean-forward="true" selection-start-line="121" selection-start-column="5" selection-end-line="121" selection-end-column="5" />
         </state>
       </provider>
     </entry>
