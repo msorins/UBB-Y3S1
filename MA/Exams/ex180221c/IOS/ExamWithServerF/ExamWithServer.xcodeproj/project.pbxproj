@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		23747555CC72B00C052BF758 /* Pods_ExamWithServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B0BDA8E53F38F4944976462 /* Pods_ExamWithServer.framework */; };
 		6E0C5959C452F3AFC8E6B30F /* Pods_ExamWithServerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CD8F1FEED609C6F34DB567E /* Pods_ExamWithServerTests.framework */; };
+		D3185DDF21DFB5420027C601 /* SocketMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3185DDE21DFB5420027C601 /* SocketMessages.swift */; };
 		D3584DA721DE1F7A00F050EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3584DA621DE1F7A00F050EF /* AppDelegate.swift */; };
 		D3584DA921DE1F7A00F050EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3584DA821DE1F7A00F050EF /* ViewController.swift */; };
 		D3584DAC21DE1F7A00F050EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3584DAA21DE1F7A00F050EF /* Main.storyboard */; };
@@ -52,6 +53,7 @@
 		9C2F35B980159BF47829F759 /* Pods-ExamWithServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExamWithServer.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExamWithServer/Pods-ExamWithServer.release.xcconfig"; sourceTree = "<group>"; };
 		A23B8F04C29956140293CEF5 /* Pods-ExamWithServerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExamWithServerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExamWithServerUITests/Pods-ExamWithServerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A9718CC1D10F8CB3312C609F /* Pods-ExamWithServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExamWithServer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExamWithServer/Pods-ExamWithServer.debug.xcconfig"; sourceTree = "<group>"; };
+		D3185DDE21DFB5420027C601 /* SocketMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketMessages.swift; sourceTree = "<group>"; };
 		D3584DA321DE1F7A00F050EF /* ExamWithServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExamWithServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3584DA621DE1F7A00F050EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3584DA821DE1F7A00F050EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +117,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D3185DDD21DFB51D0027C601 /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+				D3185DDE21DFB5420027C601 /* SocketMessages.swift */,
+			);
+			name = Socket;
+			path = Socker;
+			sourceTree = "<group>";
+		};
 		D3584D9A21DE1F7A00F050EF = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +153,7 @@
 			children = (
 				D3584DDB21DE245900F050EF /* Entities */,
 				D3584DD421DE21DD00F050EF /* Repository */,
+				D3185DDD21DFB51D0027C601 /* Socket */,
 				D38AEC4621DF6A8E008BDDD7 /* Owner */,
 				D38AEC4921DF6BE2008BDDD7 /* Employee */,
 				D3584DA821DE1F7A00F050EF /* ViewController.swift */,
@@ -235,7 +247,6 @@
 				D3584DA021DE1F7A00F050EF /* Frameworks */,
 				D3584DA121DE1F7A00F050EF /* Resources */,
 				A9A1325F4878B91F9855C3E5 /* [CP] Embed Pods Frameworks */,
-				04916C40EB401EC0636ABF72 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -355,28 +366,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		04916C40EB401EC0636ABF72 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ExamWithServer/Pods-ExamWithServer-resources.sh",
-				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExamWithServer/Pods-ExamWithServer-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		825FBC49C63AFF974B311D54 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -431,62 +420,36 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ExamWithServer/Pods-ExamWithServer-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
-				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
 				"${BUILT_PRODUCTS_DIR}/DynamicBlurView/DynamicBlurView.framework",
 				"${BUILT_PRODUCTS_DIR}/EasyTipView/EasyTipView.framework",
-				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
-				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/ObservableArray-RxSwift/ObservableArray_RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
-				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
 				"${BUILT_PRODUCTS_DIR}/RxGesture/RxGesture.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
-				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
-				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
-				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
-				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
-				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/TTGSnackbar/TTGSnackbar.framework",
 				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicBlurView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EasyTipView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObservableArray_RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxGesture.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTGSnackbar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -530,6 +493,7 @@
 				D3584DD821DE240E00F050EF /* RepositoryProtocol.swift in Sources */,
 				D38AEC4B21DF6BEF008BDDD7 /* EmployeeViewController.swift in Sources */,
 				D3B770C021DF6EAB00D8AE5C /* OwnerViewModel.swift in Sources */,
+				D3185DDF21DFB5420027C601 /* SocketMessages.swift in Sources */,
 				D3584DA721DE1F7A00F050EF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

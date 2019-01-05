@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewController: UIPageViewController, UIPageViewControllerDataSource{
+
     lazy var viewControllerList:[UIViewController] = {
         let sb = UIStoryboard(name: "Main", bundle: nil)
         
@@ -24,12 +25,6 @@ class ViewController: UIPageViewController, UIPageViewControllerDataSource{
         if let firstViewController = viewControllerList.first {
             self.setViewControllers([firstViewController], direction: .forward, animated: true, completion: nil)
         }
-        
-        let rvRepo = RealmRepository.shared
-//        rvRepo.add(item: RV(ID: 21, Name: "hello24", Model: "Nice", Status: "OK", Seats: 1, Rides: 10))
-//        rvRepo.update(newItem: RV(ID: 21, Name: "bye", Model: "Nice", Status: "OK", Seats: 1, Rides: 10))
-        print(rvRepo.getAllX())
-        print("Here")
     }
     
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {

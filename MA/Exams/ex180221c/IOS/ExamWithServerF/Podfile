@@ -13,14 +13,10 @@ target 'ExamWithServer' do
   pod 'Alamofire'
   pod 'RealmSwift'
   pod 'PopupDialog'
-  pod 'Firebase/Core'
-  pod 'Firebase/Auth'
-  pod 'Firebase/Firestore'
-  pod 'GoogleSignIn'
   pod 'lottie-ios'
-  pod 'RxDataSources'
   pod 'EasyTipView'
-
+  pod 'Starscream'
+  pod 'TTGSnackbar'  
   target 'ExamWithServerTests' do
     inherit! :search_paths
     # Pods for testing

@@ -18,6 +18,10 @@ class OwnerCell : UICollectionViewCell{
     @IBOutlet weak var SeatsTextField: UITextField!
     @IBOutlet weak var RidesTextField: UITextField!
     @IBOutlet weak var UpdateButton: UIButton!
+    @IBOutlet weak var DeleteButton: UIButton!
+    
+    @IBOutlet weak var AddRidesTextField: UITextField!
+    @IBOutlet weak var AddRidesButton: UIButton!
     
     var disposeBag: DisposeBag? = DisposeBag()
     

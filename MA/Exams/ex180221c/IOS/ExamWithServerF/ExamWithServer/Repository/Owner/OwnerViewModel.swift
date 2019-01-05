@@ -49,4 +49,12 @@ final class OwnerViewModel {
         RealmRepository.shared.update(newItem: el)
     }
     
+    func addRides(rvID: Int, rides: Int) {
+        RealmRepository.shared.addRides(rvID: rvID, rides: rides)
+    }
+    
+    func delete(el: RV) {
+        RealmRepository.shared.delete(ID: el.ID)
+    }
+    
 }

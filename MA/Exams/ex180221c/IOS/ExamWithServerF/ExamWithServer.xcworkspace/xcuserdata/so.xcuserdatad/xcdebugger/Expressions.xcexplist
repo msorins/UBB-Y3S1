@@ -33,7 +33,18 @@
          contextName = "closure #1 in RealmRepository.syncFromServer():RealmRepository.swift">
       </ContextState>
       <ContextState
+         contextName = "OwnerViewController.addRV(_:):OwnerViewController.swift">
+      </ContextState>
+      <ContextState
          contextName = "RealmRepository.init():RealmRepository.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.entities">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "RealmRepository.add(item:):RealmRepository.swift">
          <PersistentStrings>
             <PersistentString
                value = "self.entities">
@@ -47,6 +58,9 @@
                value = "el.entity">
             </PersistentString>
          </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "RealmRV.init(_:):RV.swift">
       </ContextState>
       <ContextState
          contextName = "closure #1 in RealmRepository.syncUpdateToServer(a:):RealmRepository.swift">
