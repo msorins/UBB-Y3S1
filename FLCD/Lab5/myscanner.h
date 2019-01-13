@@ -1,0 +1,17 @@
+#define INT  400
+#define ARRAY  401
+#define CHAR  402
+#define RETURN  403
+#define COUT  404
+#define CIN  405
+#define STRUCT  406
+#define ELSE  407
+#define STRING  408
+#define IF  409
+#define WHILE  410
+#define MAIN  411
+#define BACK  412
+#define CONSTANT  413
+#define NR  414
+#define IDENTIFIER  415
+#define OPERATOR 999
