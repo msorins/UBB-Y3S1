@@ -17,7 +17,7 @@ import Alamofire
 import TTGSnackbar
 import os
 
-let IP = "http://169.254.221.159:4023"
+let IP = "http://169.254.87.190:4023"
 
 class RealmRepository: RepositoryProtocol {
     public static let shared = RealmRepository()
@@ -38,6 +38,9 @@ class RealmRepository: RepositoryProtocol {
         syncToServer()
     }
     
+    //
+    //  ================  GET  ================
+    //
     func getAll() -> [RV] {
         return realm.objects(RealmRV.self).compactMap { $0.entity }
     }
@@ -74,16 +77,61 @@ class RealmRepository: RepositoryProtocol {
         return self.entities[at]
     }
     
-    func add(item: RV) -> Bool{
+    private func syncFromServer() {
+        Alamofire
+            .request(IP + "/rvs",  method: .get, headers: [:])
+            .responseJSON { res in
+                if(res.error == nil) {
+                    do {
+                        let entities = try JSONDecoder().decode([RV].self, from: res.data!)
+                        // First delete all local entities
+                        self.deleteLocalEntities()
+                        
+                        try self.realm.write {
+                            // Replace with the new ones
+                            for entity in entities {
+                                self.realm.add(RealmRV(entity))
+                            }
+                            
+                            // Trigger update
+                            self.entitiesBehaviourSubject.onNext(self.getAll())
+                            
+                            os_log("Sync with server was successful", log: .default, type: .info)
+                        }
+                        
+                    } catch let err{
+                        print("error: ", err)
+                        os_log("Sync with server failed", log: .default, type: .info)
+                        
+                        let snackbar = TTGSnackbar(message: "Sync with server failed", duration: .short)
+                        snackbar.show()
+                    }
+                } else {
+                    let snackbar = TTGSnackbar(message: "Sync with server failed", duration: .short)
+                    snackbar.show()
+                }
+        }
+    }
+    
+    //
+    //  ================  ADD  ================
+    //
+    
+    func add(item: RV, syncServer: Bool = true) -> Bool{
         // An object with this key already exists
         if self.get(ID: item.ID) != nil {
             return false
         }
         
-        // Edit Local
         do {
             try realm.write {
+                 // Edit Local
                 realm.add(RealmRV(item), update: false)
+                
+                // Edit on server
+                if syncServer == true {
+                 realm.add(UnsyncedRealmRV(item, "add"), update: true)
+                }
             }
         } catch let error{
             print("Error on add: ", error)
@@ -94,7 +142,54 @@ class RealmRepository: RepositoryProtocol {
         return true
     }
     
-    func update(newItem: RV) -> Bool {
+    private func syncAddToServer(a: UnsynscedRV) {
+        // Send the post request
+        var request = URLRequest(url: URL(string: IP + "/add")!)
+        request.httpMethod = HTTPMethod.post.rawValue
+        request.setValue("application/json; charset=UTF-8", forHTTPHeaderField: "Content-Type")
+        
+        let jsonEncoder = JSONEncoder()
+        do {
+            let jsonData = try jsonEncoder.encode(a.Entity)
+            request.httpBody = jsonData
+        } catch {
+            print("Enconding object to json failed")
+            return
+        }
+        
+        Alamofire.request(request)
+            .responseJSON { res in
+                do {
+                    if res.response?.statusCode == 200 {
+                        print("Add for object with id: ", a.ID,  "successfully synced to server")
+                        os_log("Add for object synced with success", log: .default, type: .info)
+                        
+                        // Trigger update
+                        self.entitiesBehaviourSubject.onNext(self.getAll())
+                        
+                        let almoRealm = try Realm()
+                        let predicate = NSPredicate(format: "ID == %d", a.ID)
+                        if let toDelete = almoRealm.objects(UnsyncedRealmRV.self).filter(predicate).first {
+                            almoRealm.delete(toDelete)
+                        }
+                    } else {
+                        print("Add for object with id: ", a.ID,  "failed the syncing to server: ")
+                        os_log("Add for object failed while syncing", log: .default, type: .info)
+                        
+                        let snackbar = TTGSnackbar(message: "Add Sync with server failed", duration: .short)
+                        snackbar.show()
+                    }
+                } catch {
+                    
+                }
+        }
+    }
+    
+    //
+    //  ================  UPDATE ================
+    //
+    
+    func update(newItem: RV, syncServer: Bool = true) -> Bool {
         // Object with this id must exist
         if self.get(ID: newItem.ID) == nil {
             return false
@@ -106,8 +201,9 @@ class RealmRepository: RepositoryProtocol {
                 realm.add(RealmRV(newItem), update: true)
                 
                  // Edit on server
-                realm.add(UnsyncedRealmRV(newItem, "update"), update: true)
-                
+                 if syncServer == true {
+                    realm.add(UnsyncedRealmRV(newItem, "update"), update: true)
+                 }
             }
           
         } catch let error{
@@ -119,22 +215,71 @@ class RealmRepository: RepositoryProtocol {
         return true
     }
     
-    func update(at: Int, newItem: RV)  -> Bool {
+    func update(at: Int, newItem: RV, syncServer: Bool = true)  -> Bool {
         let entities = self.getAll()
         if at >= 0 && at < entities.count {
-            return self.update(newItem: newItem)
+            return self.update(newItem: newItem, syncServer: syncServer)
         }
         
         return false
     }
     
-    func delete(ID: Int) -> Bool {
+    private func syncUpdateToServer(a: UnsynscedRV) {
+        // Send the post request
+        var request = URLRequest(url: URL(string: IP + "/change")!)
+        request.httpMethod = HTTPMethod.post.rawValue
+        request.setValue("application/json; charset=UTF-8", forHTTPHeaderField: "Content-Type")
+        
+        let jsonEncoder = JSONEncoder()
+        do {
+            let jsonData = try jsonEncoder.encode(a.Entity)
+            request.httpBody = jsonData
+        } catch {
+            print("Enconding object to json failed")
+            return
+        }
+        
+        Alamofire.request(request)
+            .responseJSON { res in
+                do {
+                    if res.response?.statusCode == 200 {
+                        print("Update for object with id: ", a.ID,  "successfully synced to server")
+                        os_log("Update for object synced with success", log: .default, type: .info)
+                        
+                        // Trigger update
+                        self.entitiesBehaviourSubject.onNext(self.getAll())
+                        
+                        let almoRealm = try Realm()
+                        let predicate = NSPredicate(format: "ID == %d", a.ID)
+                        if let toDelete = almoRealm.objects(UnsyncedRealmRV.self).filter(predicate).first {
+                            almoRealm.delete(toDelete)
+                        }
+                    } else {
+                        print("Update for object with id: ", a.ID,  "failed the syncing to server: ")
+                        os_log("Update for object failed while syncing", log: .default, type: .info)
+                        
+                        let snackbar = TTGSnackbar(message: "Update Sync with server failed", duration: .short)
+                        snackbar.show()
+                    }
+                } catch {
+                    
+                }
+        }
+    }
+    
+    //
+    //  ================  DELETE ================
+    //
+    
+    func delete(ID: Int, syncServer: Bool = true) -> Bool {
         let predicate = NSPredicate(format: "ID == %d", ID)
         if let toDelete = realm.objects(RealmRV.self).filter(predicate).first {
             do {
                   try self.realm.write {
                     // Delete on server
-                    realm.add(UnsyncedRealmRV(toDelete.entity, "delete"), update: true)
+                    if syncServer == true {
+                        realm.add(UnsyncedRealmRV(toDelete.entity, "delete"), update: true)
+                    }
                     
                     // Delete local
                      realm.delete(toDelete)
@@ -149,6 +294,47 @@ class RealmRepository: RepositoryProtocol {
             return true
         }
         return false
+    }
+    
+    func delete(at: Int, syncServer: Bool = true) -> Bool {
+        let entities = self.getAll()
+        if at >= 0 && at < entities.count {
+            return self.delete(ID: entities[at].ID, syncServer: syncServer)
+        }
+        
+        return false
+    }
+    
+    private func syncDeleteToServer(a: UnsynscedRV) {
+        Alamofire
+            .request(IP + "/delete/" + String(a.ID),  method: .delete, headers: [:])
+            .responseJSON { res in
+                if( res.response?.statusCode == 200 ) {
+                    do {
+                        let almoRealm = try Realm()
+                        try almoRealm.write {
+                            // Delete the level from unsynced added level
+                            let predicate = NSPredicate(format: "ID == %d", a.ID)
+                            if let toDelete = almoRealm.objects(UnsyncedRealmRV.self).filter(predicate).first {
+                                try almoRealm.write {
+                                    almoRealm.delete(toDelete)
+                                }
+                            }
+                        }
+                        
+                        print("Delete for object with id: ", a.ID,  "successfuly synced with server")
+                        os_log("Delete for object successfuly synced with server", log: .default, type: .info)
+                    } catch {
+                        
+                    }
+                } else {
+                    print("Delete for object with id: ", a.ID,  "failed the syncing to server: ")
+                    os_log("Delete for object failed while syncing", log: .default, type: .info)
+                    
+                    let snackbar = TTGSnackbar(message: "Delete sync with server failed", duration: .short)
+                    snackbar.show()
+                }
+        }
     }
     
     func deleteAllLocalData() {
@@ -180,50 +366,9 @@ class RealmRepository: RepositoryProtocol {
         }
     }
     
-    func delete(at: Int) -> Bool {
-        let entities = self.getAll()
-        if at >= 0 && at < entities.count {
-            return self.delete(ID: entities[at].ID)
-        }
-        
-        return false
-    }
-    
-    private func syncFromServer() {
-        Alamofire
-            .request(IP + "/rvs",  method: .get, headers: [:])
-            .responseJSON { res in
-                if(res.error == nil) {
-                    do {
-                        let entities = try JSONDecoder().decode([RV].self, from: res.data!)
-                        // First delete all local entities
-                        self.deleteLocalEntities()
-                        
-                        try self.realm.write {
-                            // Replace with the new ones
-                            for entity in entities {
-                                self.realm.add(RealmRV(entity))
-                            }
-                            
-                            // Trigger update
-                            self.entitiesBehaviourSubject.onNext(self.getAll())
-                            
-                            os_log("Sync with server was successful", log: .default, type: .info)
-                        }
-
-                    } catch let err{
-                        print("error: ", err)
-                        os_log("Sync with server failed", log: .default, type: .info)
-                        
-                        let snackbar = TTGSnackbar(message: "Sync with server failed", duration: .short)
-                        snackbar.show()
-                    }
-                } else {
-                    let snackbar = TTGSnackbar(message: "Sync with server failed", duration: .short)
-                    snackbar.show()
-                }
-            }
-    }
+    //
+    //  ================  SYNC TO SERVER ================
+    //
     
     private func syncToServer() {
         Observable<Int>
@@ -233,8 +378,8 @@ class RealmRepository: RepositoryProtocol {
                 do {
                     self.realm.objects(UnsyncedRealmRV.self).forEach { (a) in
                         switch a.Operation {
-//                        case "add":
-//                            self.syncAddToServer(a: a)
+                        case "add":
+                            self.syncAddToServer(a: a.entity)
                         case "update":
                             self.syncUpdateToServer(a: a.entity)
                         case "delete":
@@ -251,115 +396,9 @@ class RealmRepository: RepositoryProtocol {
             .disposed(by: self.disposeBag)
     }
     
-    private func syncAddToServer(a: RV) {
-//        let levelThreadSafeRef = ThreadSafeReference(to: a)
-//
-//        let jsonEncoder = JSONEncoder()
-//        var json: String = ""
-//        do {
-//            let jsonData = try jsonEncoder.encode(a.level)
-//            json = String(data: jsonData, encoding: String.Encoding.utf8)!
-//        } catch {
-//            print("Enconding object to json failed")
-//            return
-//        }
-        
-        // Send the post request
-//        Alamofire.request("https://domino.serveo.net/levels", method: .post, parameters: [:], encoding: json, headers: [:])
-//            .responseJSON { res in
-//                if(res.error == nil) {
-//                    do {
-//                        let almoRealm = try Realm()
-//                        let lvl = almoRealm.resolve(levelThreadSafeRef)
-//                        try! almoRealm.write {
-//                            // Delete the level from unsynced added level
-//                            print(lvl!.name, " deleted from unsynced added data queue")
-//                            almoRealm.delete(lvl!)
-//                        }
-//                    } catch {
-//
-//                    }
-//                }
-//        }
-    }
-    
-    
-    private func syncDeleteToServer(a: UnsynscedRV) {
-        Alamofire
-            .request(IP + "/delete/" + String(a.ID),  method: .delete, headers: [:])
-            .responseJSON { res in
-                if( res.response?.statusCode == 200 ) {
-                    do {
-                        let almoRealm = try Realm()
-                        try almoRealm.write {
-                            // Delete the level from unsynced added level
-                            let predicate = NSPredicate(format: "ID == %d", a.ID)
-                            if let toDelete = almoRealm.objects(UnsyncedRealmRV.self).filter(predicate).first {
-                                try almoRealm.write {
-                                    almoRealm.delete(toDelete)
-                                }
-                            }
-                        }
-                        
-                        print("Delete for object with id: ", a.ID,  "successfuly synced with server")
-                        os_log("Delete for object successfuly synced with server", log: .default, type: .info)
-                    } catch {
-
-                    }
-                } else {
-                    print("Delete for object with id: ", a.ID,  "failed the syncing to server: ")
-                    os_log("Delete for object failed while syncing", log: .default, type: .info)
-                    
-                    let snackbar = TTGSnackbar(message: "Delete sync with server failed", duration: .short)
-                    snackbar.show()
-                }
-        }
-    }
-    
-    private func syncUpdateToServer(a: UnsynscedRV) {
-        // Send the post request
-        var request = URLRequest(url: URL(string: IP + "/change")!)
-        request.httpMethod = HTTPMethod.post.rawValue
-        request.setValue("application/json; charset=UTF-8", forHTTPHeaderField: "Content-Type")
-        
-        let jsonEncoder = JSONEncoder()
-        do {
-            let jsonData = try jsonEncoder.encode(a.Entity)
-            request.httpBody = jsonData
-        } catch {
-            print("Enconding object to json failed")
-            return
-        }
-    
-        Alamofire.request(request)
-            .responseJSON { res in
-                do {
-                    if res.response?.statusCode == 200 {
-                        print("Update for object with id: ", a.ID,  "successfully synced to server")
-                        os_log("Update for object synced with success", log: .default, type: .info)
-                        
-                        // Trigger update
-                        self.entitiesBehaviourSubject.onNext(self.getAll())
-                        
-                        let almoRealm = try Realm()
-                        let predicate = NSPredicate(format: "ID == %d", a.ID)
-                        if let toDelete = almoRealm.objects(UnsyncedRealmRV.self).filter(predicate).first {
-                            try almoRealm.write {
-                                almoRealm.delete(toDelete)
-                            }
-                        }
-                    } else {
-                        print("Update for object with id: ", a.ID,  "failed the syncing to server: ")
-                        os_log("Update for object failed while syncing", log: .default, type: .info)
-                        
-                        let snackbar = TTGSnackbar(message: "Sync with server failed", duration: .short)
-                        snackbar.show()
-                    }
-                } catch {
-    
-                }
-        }
-    }
+    //
+    //  ================  OTHERS ================
+    //
     
     public func addRides(rvID: Int, rides: Int) {
         // Send the post request

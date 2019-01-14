@@ -1,0 +1,6 @@
+framework module ObservableArray_RxSwift {
+  umbrella header "ObservableArray-RxSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

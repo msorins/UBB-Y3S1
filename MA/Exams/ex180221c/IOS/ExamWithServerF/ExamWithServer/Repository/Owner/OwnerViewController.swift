@@ -126,7 +126,7 @@ class OwnerViewController: UIViewController {
     @IBAction func addRV(_ sender: Any) {
         var id = RealmRepository.shared.getAll().count * 100
         var newRV = RV(ID: id, Name: self.nameTextField.text!, Model: self.modelTextField.text!, Status: self.statusTextField.text!, Seats: Int(self.seatsTextField.text!) ?? 0, Rides: 0)
-        RealmRepository.shared.add(item: newRV)
+        RealmRepository.shared.add(item: newRV, syncServer: false)
     }
     
 }

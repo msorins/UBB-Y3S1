@@ -13,12 +13,14 @@ protocol RepositoryProtocol {
     
     func getAll() -> [T]
     func get(ID: Int) -> T?
-    func add(item: T) -> Bool
     
-    func update(newItem: T) -> Bool
-    func update(at: Int, newItem: T)    -> Bool
+    func add(item: T, syncServer: Bool) -> Bool
     
-    func delete(ID: Int) -> Bool
-    func delete(at: Int) -> Bool
+    func update(newItem: T, syncServer: Bool) -> Bool
+    func update(at: Int, newItem: T, syncServer: Bool)    -> Bool
+    
+    func delete(ID: Int, syncServer: Bool) -> Bool
+    func delete(at: Int, syncServer: Bool) -> Bool
+    
     func deleteAllLocalData()
 }
