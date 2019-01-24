@@ -59,6 +59,7 @@ void dfs(int node, vector<int> path, vector<bool> visited) {
 }
 
 void dfsT(int node, vector<int> path, vector<bool> visited, int threads) {
+    // To do: copy path when entering in a new thread
     bool first = true;
 
     if(threads == 1) {

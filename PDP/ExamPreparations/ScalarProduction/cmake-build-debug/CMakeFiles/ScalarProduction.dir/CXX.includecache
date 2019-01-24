@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/so/Desktop/Y3S1/PDP/ExamPreparations/ScalarProduction/main.cpp
+iostream
+-
+vector
+-
+future
+-
+

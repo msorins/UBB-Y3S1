@@ -19,23 +19,7 @@ bool checkIfColouringCorrect(vector<int> colouring) {
     // mocked
     return true;
 }
-
-void getSolution(int n, int low, int high) {
-    // for each colour
-    for(int j = low; j<= high; j++) {
-        // for each object
-        for(int i = 1; i<= n; i++) {
-
-        }
-    }
-
-
-}
-
-mutex mtx;
 vector<int> getSol(int sol, int k, int n) {
-    mtx.lock();
-    cout << "Checking solution " << sol << ": ";
     vector<int> vecSol;
 
     for(int i = 1; i <= n; i++) {
@@ -43,12 +27,6 @@ vector<int> getSol(int sol, int k, int n) {
         sol /= k;
     }
     reverse(vecSol.begin(), vecSol.end());
-
-    for(auto el: vecSol) {
-        cout << el << " ";
-    }
-    cout << "\n";
-    mtx.unlock();
 
     return vecSol;
 }
@@ -71,7 +49,7 @@ int main() {
     for(int i = 0; i <= to; i += step) {
         threads.emplace_back( std::async([i, step, to, k, n, &correctColouring](){
             // Check combination j
-            for(int j = i; j <= min(j + step - 1, to); j++) {
+            for(int j = i; j <= min(i + step - 1, to); j++) {
                 vector<int> sol = getSol(j, k, n);
                 if(checkIfColouringCorrect(sol)) {
                     correctColouring = sol;

@@ -19,23 +19,34 @@ int partition(vector<int> &v, int low, int high) {
     return i;
 }
 
-void quickSort(vector<int> &v, int low, int high) {
+void quickSort(vector<int> &v, int low, int high, int threads) {
     if(low >= high) {
         return;
     }
 
     int pivot = partition(v, low, high);
-    auto f1 = async(quickSort, ref(v), low, pivot - 1);
-    auto f2 = async(quickSort, ref(v), pivot + 1, high);
+    if(threads == 1) {
+        quickSort(v, low, pivot - 1, 1);
+        quickSort(v, pivot + 1, high, 1);
+    } else {
+        // Another thread
+        auto f1 = async(quickSort, ref(v), low, pivot - 1, threads / 2);
 
-    f1.get();
-    f2.get();
+        // Crt thread
+        quickSort(v, pivot + 1, high, threads - threads / 2);
+
+        f1.get();
+    }
 }
 
 int main() {
     vector<int> v{10, 80, 30, 90, 40, 50, 70};
+    for(int i = 10000; i >= 1; i--) {
+        v.push_back(i);
+    }
 
-    quickSort(v, 0, v.size() - 1);
+    int threads = 4;
+    quickSort(v, 0, v.size() - 1, threads);
 
     for(auto el: v) {
         cout << el << " ";
